@@ -31,13 +31,6 @@ describe("Testing add()", function(){
 
         expect(output).to.equal(`Failed to add ${path_file}! File is not modified or missing.`);
     });
-    it('Should failed with missing path_file "views/error404.html"', function(){
-        let wd = new WorkingDirectory();
-        wd.addFile("index.html", "views", "<html>Hello</html>");
-
-        let git = new GitCommand(wd);
-        let res=git.test_sample()
-        expect(res).to.equal(true)
-    })
+ 
 
 })
