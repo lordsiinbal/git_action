@@ -31,7 +31,6 @@ describe("Testing add()", function(){
 
         expect(output).to.equal(`Failed to add ${path_file}! File is not modified or missing.`);
     });
-    
     it("Testing",function(){
         let wd = new WorkingDirectory();
         wd.addFile("index.html", "views", "<html>Hello</html>");
