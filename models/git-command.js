@@ -9,7 +9,7 @@ class GitCommand {
         return "Initialized as empty Git repository.";
     }
     test_sample(){
-        return true
+        return false
     }
     //Command: git status
     // status(){}
