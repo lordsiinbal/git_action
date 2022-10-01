@@ -64,3 +64,8 @@ describe("Testing add()", function(){
         expect(output_status).to.equal('You have 1 change/s.\n.github/workflows/actions.yml');
     });
 })
+describe("Testing add()", function(){
+    let func=new Function
+    let res=func.new()
+    expect(res).to.equal('Successfully');
+})
