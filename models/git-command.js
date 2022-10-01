@@ -8,7 +8,9 @@ class GitCommand {
         this.local_repository = [];
         return "Initialized as empty Git repository.";
     }
-
+    test_sample(){
+        return false
+    }
     //Command: git status
     // status(){}
 
